@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# wrangler local state (simulated Durable Objects, D1, caches)
+.wrangler/
+
+# local secrets — never commit these
+.dev.vars
+.env
+
+# test output
+test/artifacts/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+npm-debug.log*
